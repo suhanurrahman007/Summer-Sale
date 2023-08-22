@@ -1,0 +1,29 @@
+*{
+    font-family: 'Work Sans',
+    sans-serif;
+}
+
+.card{
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.05, 1.05);
+}
+
+
+/* Default button style */
+.applys-btn {
+    padding: 8px 18px;
+    border: none;
+    background-color: #86236b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Disabled button style */
+.applys-btn[disabled] {
+    background-color: #49103a;
+    cursor: not-allowed;
+}
+
