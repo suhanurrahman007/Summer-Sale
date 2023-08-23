@@ -37,7 +37,7 @@ function getTotalPrice(itemsName, totalPrice) {
 //disable button create
 function getDisableBtn() {
     const totalPriceValue = getItemsPrice('total-price')
-    if (totalPriceValue <= 200) {
+    if (totalPriceValue < 200) {
         document.getElementById("apply-btn").disabled = true;
     } else {
         document.getElementById('apply-btn').disabled = false;
